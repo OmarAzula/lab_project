@@ -52,7 +52,7 @@ module processor
     );
 
     // instruction memory
-    inst_mem inst_mem_i
+    instruction_memory inst_mem_i
     (
         .addr  ( pc_out         ),
         .data  ( inst           )
@@ -71,7 +71,7 @@ module processor
     );
 
     // register file
-    reg_file reg_file_i
+    register_file reg_file_i
     (
         .clk   ( clk            ),
         .rf_en ( rf_en          ),
@@ -117,7 +117,7 @@ module processor
     );
 
 
-    data_mem data_mem_i
+    data_memory data_mem_i
     (
         .clk            ( clk          ),
         .rd_en          ( rd_en        ),
@@ -140,7 +140,7 @@ module processor
 
 
     // controller
-    controller controller_i
+    controll_unit controller_i
     (
         .opcode         ( opcode         ),
         .funct3         ( funct3         ),
