@@ -1,15 +1,12 @@
 # Guidelines
 This repository contains code for 1,2 and 3 stage pipeline processor converted from a 32-bit single cycle processor.
 
-##Circuit Diagram of a 3 stage piple converted from a single cycle processor 
+## Circuit Diagram of a 3 stage piple converted from a single cycle processor 
 
-
-#### RTL can be compiled and simulated by just running ```compile.bat``` file which i've created in the same folder
-Compilation and Simulation process is explained below:
-
-
+![SCP_TO_3StagePipileine drawio](https://github.com/OmarAzula/lab_project/assets/131664202/127294e8-28b6-4d83-8bf9-8f6b596ad3b4)
 
 ## Compilation
+
 
 RTL can be compiled with the command: 
 
