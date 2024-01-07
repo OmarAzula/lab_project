@@ -1,8 +1,13 @@
 # Guidelines
-This repository contains code for 32-bit processor using RISC-V Instruction Set Architecture (ISA).
+This repository contains code for 1,2 and 3 stage pipeline processor converted from a 32-bit single cycle processor.
+
+##Circuit Diagram of a 3 stage piple converted from a single cycle processor 
+
 
 #### RTL can be compiled and simulated by just running ```compile.bat``` file which i've created in the same folder
 Compilation and Simulation process is explained below:
+
+
 
 ## Compilation
 
