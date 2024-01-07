@@ -8,7 +8,7 @@ This repository contains code for 1,2 and 3 stage pipeline processor converted f
 ## Compilation
 
 
-RTL can be compiled with the command: 
+project can compiled with the command: 
 
 ``` 
 vlog names_of_all_system_verilog_files
@@ -24,11 +24,16 @@ Compilation creates a ``` work ``` folder in your current working directory in w
  
 ## Simulation
 
-The compiled RTL can be simulated with command:
+The compiled project can be simulated with command:
 
 ``` 
 vsim -c name_of_toplevel_module -do "run -all"
 ```
+
+Then
+``` 
+vsim -c top_processor
+``` 
 
 Simulation creates a ``` .vcd ``` file. This files contains all the simulation behaviour of design.
 
