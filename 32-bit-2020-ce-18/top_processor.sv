@@ -31,7 +31,7 @@ module top_processor();
     // initialize memory
     initial
     begin
-        $readmemb("instruction.mem", dut.inst_mem_i.mem);
+        $readmemb("instruction.memory", dut.inst_mem_i.mem);
         $readmemb("rf.mem", dut.reg_file_i.reg_mem);
         $readmemb("dm.mem", dut.data_mem_i.data_mem);
     end
